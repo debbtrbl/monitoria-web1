@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 04</title>
+    <style>
+         body {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        audio, video {
+            margin: 0 auto;
+        }
+
+        fieldset {
+            width: 300px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Atividade HTML 04</h1>
+    <h2>Exemplo de áudio</h2>
+    <audio src="audios/audio.mp3" controls></audio>
+
+    <h2>Exemplo de vídeo</h2>
+    <video src="videos/video.mp4" width="320" height="240" controls></video>
+
+    <h2>Exemplo de formulário</h2>
+    <fieldset>
+    <form action="" method="post">
+        <label for="nome">Primeiro nome:</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" ><br><br>
+        <label for="sobrenome">Sobrenome:</label><br>
+        <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome"><br><br>
+        <label for="dependentes">Quantidade de dependentes:</label><br>
+        <input type="number" id="dependentes" name="dependentes" placeholder="Digite qnt. de dependentes"><br><br>
+        <label for="obs">Observações:</label><br>
+        <textarea name="obs" id="obs" rows="3" cols="20"></textarea>
+        <br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+    </fieldset>
+    </main>
+</body>
+</html>
